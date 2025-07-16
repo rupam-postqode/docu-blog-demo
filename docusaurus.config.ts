@@ -16,17 +16,8 @@ const config: Config = {
   // Set the production url of your site here
 
   baseUrl: '/blogs/',
-  url: 'https://your-domain.com',
+  url: 'https://react-blog-demo-ten.vercel.app',
   trailingSlash: false,
-
-  plugins: [
-    [
-      "@docusaurus/plugin-sitemap",
-      {
-        // ... other options
-      },
-    ],
-  ],
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
