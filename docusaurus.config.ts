@@ -16,7 +16,7 @@ const config: Config = {
   // Set the production url of your site here
 
   baseUrl: '/blogs/',
-  url: 'https://react-blog-demo-ten.vercel.app',
+  url: 'http://localhost:3030',
   trailingSlash: false,
 
   // GitHub pages deployment config.
