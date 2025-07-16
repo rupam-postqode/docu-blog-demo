@@ -26,6 +26,13 @@ const config: Config = {
     },
   ],
 
+  stylesheets: [
+    {
+      href: './src/css/custom.css',
+      type: 'text/css',
+    },
+  ],
+
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: "facebook", // Usually your GitHub org/user name.
