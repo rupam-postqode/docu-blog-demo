@@ -15,7 +15,7 @@ const config: Config = {
   },
   // Set the production url of your site here
 
-  baseUrl: "/blogs/",
+  baseUrl: "/",
   url: "http://localhost:3030",
   // Add this for proper resource loading
   
