@@ -15,9 +15,16 @@ const config: Config = {
   },
   // Set the production url of your site here
 
-  baseUrl: '/blogs/',
-  url: 'http://localhost:3030',
-  trailingSlash: false,
+  baseUrl: "/blogs/",
+  url: "http://localhost:3030",
+  // Add this for proper resource loading
+  
+  scripts: [
+    {
+      src: "/blogs/redirect.js",
+      async: false,
+    },
+  ],
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
